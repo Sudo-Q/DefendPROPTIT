@@ -1,0 +1,66 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/duonglh/Code/Game C++/defenderPro/Animation.h
+SFML/Graphics.hpp
+/home/duonglh/Code/Game C++/defenderPro/SFML/Graphics.hpp
+vector
+-
+iostream
+-
+
+/home/duonglh/Code/Game C++/defenderPro/Bug.h
+Animation.h
+/home/duonglh/Code/Game C++/defenderPro/Animation.h
+cmath
+-
+vector
+-
+
+/home/duonglh/Code/Game C++/defenderPro/Bullet.h
+SFML/Graphics.hpp
+/home/duonglh/Code/Game C++/defenderPro/SFML/Graphics.hpp
+
+/home/duonglh/Code/Game C++/defenderPro/Data.h
+SFML/Graphics.hpp
+/home/duonglh/Code/Game C++/defenderPro/SFML/Graphics.hpp
+vector
+-
+map
+-
+
+/home/duonglh/Code/Game C++/defenderPro/Map.h
+SFML/Graphics.hpp
+/home/duonglh/Code/Game C++/defenderPro/SFML/Graphics.hpp
+vector
+-
+
+/home/duonglh/Code/Game C++/defenderPro/Shooter.h
+SFML/Graphics.hpp
+/home/duonglh/Code/Game C++/defenderPro/SFML/Graphics.hpp
+Bullet.h
+/home/duonglh/Code/Game C++/defenderPro/Bullet.h
+cmath
+-
+
+/home/duonglh/Code/Game C++/defenderPro/main.cpp
+Map.h
+/home/duonglh/Code/Game C++/defenderPro/Map.h
+Data.h
+/home/duonglh/Code/Game C++/defenderPro/Data.h
+Bug.h
+/home/duonglh/Code/Game C++/defenderPro/Bug.h
+Shooter.h
+/home/duonglh/Code/Game C++/defenderPro/Shooter.h
+Bug.h
+/home/duonglh/Code/Game C++/defenderPro/Bug.h
+Shooter.h
+/home/duonglh/Code/Game C++/defenderPro/Shooter.h
+iostream
+-
+

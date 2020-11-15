@@ -11,24 +11,62 @@ CMakeFiles/defenderPro.dir/Bug.cpp.o: ../Bug.h
 CMakeFiles/defenderPro.dir/Bullet.cpp.o: ../Bullet.cpp
 CMakeFiles/defenderPro.dir/Bullet.cpp.o: ../Bullet.h
 
+CMakeFiles/defenderPro.dir/Button.cpp.o: ../Button.cpp
+CMakeFiles/defenderPro.dir/Button.cpp.o: ../Button.h
+
 CMakeFiles/defenderPro.dir/Data.cpp.o: ../Data.cpp
 CMakeFiles/defenderPro.dir/Data.cpp.o: ../Data.h
 
+CMakeFiles/defenderPro.dir/Game.cpp.o: ../Animation.h
+CMakeFiles/defenderPro.dir/Game.cpp.o: ../Bug.h
+CMakeFiles/defenderPro.dir/Game.cpp.o: ../Bullet.h
+CMakeFiles/defenderPro.dir/Game.cpp.o: ../Button.h
+CMakeFiles/defenderPro.dir/Game.cpp.o: ../Data.h
+CMakeFiles/defenderPro.dir/Game.cpp.o: ../Game.cpp
+CMakeFiles/defenderPro.dir/Game.cpp.o: ../Game.h
+CMakeFiles/defenderPro.dir/Game.cpp.o: ../Map.h
+CMakeFiles/defenderPro.dir/Game.cpp.o: ../Shooter.h
+CMakeFiles/defenderPro.dir/Game.cpp.o: ../TableButton.h
+CMakeFiles/defenderPro.dir/Game.cpp.o: ../TakeCoins.h
+
+CMakeFiles/defenderPro.dir/Intro.cpp.o: ../Animation.h
+CMakeFiles/defenderPro.dir/Intro.cpp.o: ../Button.h
+CMakeFiles/defenderPro.dir/Intro.cpp.o: ../Data.h
 CMakeFiles/defenderPro.dir/Intro.cpp.o: ../Intro.cpp
 CMakeFiles/defenderPro.dir/Intro.cpp.o: ../Intro.h
 
 CMakeFiles/defenderPro.dir/Map.cpp.o: ../Map.cpp
 CMakeFiles/defenderPro.dir/Map.cpp.o: ../Map.h
 
+CMakeFiles/defenderPro.dir/Outro.cpp.o: ../Animation.h
+CMakeFiles/defenderPro.dir/Outro.cpp.o: ../Button.h
+CMakeFiles/defenderPro.dir/Outro.cpp.o: ../Data.h
+CMakeFiles/defenderPro.dir/Outro.cpp.o: ../Outro.cpp
+CMakeFiles/defenderPro.dir/Outro.cpp.o: ../Outro.h
+
 CMakeFiles/defenderPro.dir/Shooter.cpp.o: ../Bullet.h
 CMakeFiles/defenderPro.dir/Shooter.cpp.o: ../Shooter.cpp
 CMakeFiles/defenderPro.dir/Shooter.cpp.o: ../Shooter.h
 
+CMakeFiles/defenderPro.dir/TableButton.cpp.o: ../Button.h
+CMakeFiles/defenderPro.dir/TableButton.cpp.o: ../TableButton.cpp
+CMakeFiles/defenderPro.dir/TableButton.cpp.o: ../TableButton.h
+
+CMakeFiles/defenderPro.dir/TakeCoins.cpp.o: ../Animation.h
+CMakeFiles/defenderPro.dir/TakeCoins.cpp.o: ../TakeCoins.cpp
+CMakeFiles/defenderPro.dir/TakeCoins.cpp.o: ../TakeCoins.h
+
 CMakeFiles/defenderPro.dir/main.cpp.o: ../Animation.h
 CMakeFiles/defenderPro.dir/main.cpp.o: ../Bug.h
 CMakeFiles/defenderPro.dir/main.cpp.o: ../Bullet.h
+CMakeFiles/defenderPro.dir/main.cpp.o: ../Button.h
 CMakeFiles/defenderPro.dir/main.cpp.o: ../Data.h
+CMakeFiles/defenderPro.dir/main.cpp.o: ../Game.h
+CMakeFiles/defenderPro.dir/main.cpp.o: ../Intro.h
 CMakeFiles/defenderPro.dir/main.cpp.o: ../Map.h
+CMakeFiles/defenderPro.dir/main.cpp.o: ../Outro.h
 CMakeFiles/defenderPro.dir/main.cpp.o: ../Shooter.h
+CMakeFiles/defenderPro.dir/main.cpp.o: ../TableButton.h
+CMakeFiles/defenderPro.dir/main.cpp.o: ../TakeCoins.h
 CMakeFiles/defenderPro.dir/main.cpp.o: ../main.cpp
 

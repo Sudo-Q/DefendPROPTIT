@@ -4,20 +4,30 @@
 
 #ifndef DEFENDERPRO_INTRO_H
 #define DEFENDERPRO_INTRO_H
-#include "SFML/Graphics.hpp"
+#include "Data.h"
+#include "Animation.h"
+#include "Button.h"
 using namespace sf;
 using namespace std;
 class Intro {
 private:
-    RenderWindow window;
-    Event event;
-    RectangleShape barLoading,loading;
-    int percentLoading;
+    RenderWindow *window{};
+    Animation impostor,animationTitle;
+    Button playButton,rankButton,settingButton;
+    RectangleShape loadingBar,loading,background,clouds1,clouds2,leftCloud,rightCloud,intro,madeBy,cover;
+    Sprite animationLoading,title;
+    float deltaTime{},totalTimeTitle{},totalTimeStart{},totalTimeLoading{},scaleLoading{},timeBlur{},alpha{};
+    bool isClickPlayButton{},isLoading,start,drawIntro{};
+    Vector2f Scale;
+    Text loadingPercents;
     Clock clock;
 public:
     Intro();
+    void Init(Data&,RenderWindow*&);
+    void getEvents();
+    void update(short&);
+    void newIntro();
     void draw();
-
 
 };
 

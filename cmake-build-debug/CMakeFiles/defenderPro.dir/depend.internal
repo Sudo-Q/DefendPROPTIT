@@ -11,24 +11,62 @@ CMakeFiles/defenderPro.dir/Bug.cpp.o
 CMakeFiles/defenderPro.dir/Bullet.cpp.o
  /home/duonglh/Code/Game C++/defenderPro/Bullet.cpp
  /home/duonglh/Code/Game C++/defenderPro/Bullet.h
+CMakeFiles/defenderPro.dir/Button.cpp.o
+ /home/duonglh/Code/Game C++/defenderPro/Button.cpp
+ /home/duonglh/Code/Game C++/defenderPro/Button.h
 CMakeFiles/defenderPro.dir/Data.cpp.o
  /home/duonglh/Code/Game C++/defenderPro/Data.cpp
  /home/duonglh/Code/Game C++/defenderPro/Data.h
+CMakeFiles/defenderPro.dir/Game.cpp.o
+ /home/duonglh/Code/Game C++/defenderPro/Animation.h
+ /home/duonglh/Code/Game C++/defenderPro/Bug.h
+ /home/duonglh/Code/Game C++/defenderPro/Bullet.h
+ /home/duonglh/Code/Game C++/defenderPro/Button.h
+ /home/duonglh/Code/Game C++/defenderPro/Data.h
+ /home/duonglh/Code/Game C++/defenderPro/Game.cpp
+ /home/duonglh/Code/Game C++/defenderPro/Game.h
+ /home/duonglh/Code/Game C++/defenderPro/Map.h
+ /home/duonglh/Code/Game C++/defenderPro/Shooter.h
+ /home/duonglh/Code/Game C++/defenderPro/TableButton.h
+ /home/duonglh/Code/Game C++/defenderPro/TakeCoins.h
 CMakeFiles/defenderPro.dir/Intro.cpp.o
+ /home/duonglh/Code/Game C++/defenderPro/Animation.h
+ /home/duonglh/Code/Game C++/defenderPro/Button.h
+ /home/duonglh/Code/Game C++/defenderPro/Data.h
  /home/duonglh/Code/Game C++/defenderPro/Intro.cpp
  /home/duonglh/Code/Game C++/defenderPro/Intro.h
 CMakeFiles/defenderPro.dir/Map.cpp.o
  /home/duonglh/Code/Game C++/defenderPro/Map.cpp
  /home/duonglh/Code/Game C++/defenderPro/Map.h
+CMakeFiles/defenderPro.dir/Outro.cpp.o
+ /home/duonglh/Code/Game C++/defenderPro/Animation.h
+ /home/duonglh/Code/Game C++/defenderPro/Button.h
+ /home/duonglh/Code/Game C++/defenderPro/Data.h
+ /home/duonglh/Code/Game C++/defenderPro/Outro.cpp
+ /home/duonglh/Code/Game C++/defenderPro/Outro.h
 CMakeFiles/defenderPro.dir/Shooter.cpp.o
  /home/duonglh/Code/Game C++/defenderPro/Bullet.h
  /home/duonglh/Code/Game C++/defenderPro/Shooter.cpp
  /home/duonglh/Code/Game C++/defenderPro/Shooter.h
+CMakeFiles/defenderPro.dir/TableButton.cpp.o
+ /home/duonglh/Code/Game C++/defenderPro/Button.h
+ /home/duonglh/Code/Game C++/defenderPro/TableButton.cpp
+ /home/duonglh/Code/Game C++/defenderPro/TableButton.h
+CMakeFiles/defenderPro.dir/TakeCoins.cpp.o
+ /home/duonglh/Code/Game C++/defenderPro/Animation.h
+ /home/duonglh/Code/Game C++/defenderPro/TakeCoins.cpp
+ /home/duonglh/Code/Game C++/defenderPro/TakeCoins.h
 CMakeFiles/defenderPro.dir/main.cpp.o
  /home/duonglh/Code/Game C++/defenderPro/Animation.h
  /home/duonglh/Code/Game C++/defenderPro/Bug.h
  /home/duonglh/Code/Game C++/defenderPro/Bullet.h
+ /home/duonglh/Code/Game C++/defenderPro/Button.h
  /home/duonglh/Code/Game C++/defenderPro/Data.h
+ /home/duonglh/Code/Game C++/defenderPro/Game.h
+ /home/duonglh/Code/Game C++/defenderPro/Intro.h
  /home/duonglh/Code/Game C++/defenderPro/Map.h
+ /home/duonglh/Code/Game C++/defenderPro/Outro.h
  /home/duonglh/Code/Game C++/defenderPro/Shooter.h
+ /home/duonglh/Code/Game C++/defenderPro/TableButton.h
+ /home/duonglh/Code/Game C++/defenderPro/TakeCoins.h
  /home/duonglh/Code/Game C++/defenderPro/main.cpp

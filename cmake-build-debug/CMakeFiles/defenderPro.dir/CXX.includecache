@@ -25,15 +25,41 @@ vector
 /home/duonglh/Code/Game C++/defenderPro/Bullet.h
 SFML/Graphics.hpp
 /home/duonglh/Code/Game C++/defenderPro/SFML/Graphics.hpp
+iostream
+-
+
+/home/duonglh/Code/Game C++/defenderPro/Button.h
+SFML/Graphics.hpp
+/home/duonglh/Code/Game C++/defenderPro/SFML/Graphics.hpp
 
 /home/duonglh/Code/Game C++/defenderPro/Data.h
 SFML/Graphics.hpp
 /home/duonglh/Code/Game C++/defenderPro/SFML/Graphics.hpp
+SFML/Audio.hpp
+/home/duonglh/Code/Game C++/defenderPro/SFML/Audio.hpp
 vector
 -
 map
 -
 
+/home/duonglh/Code/Game C++/defenderPro/Game.cpp
+Game.h
+/home/duonglh/Code/Game C++/defenderPro/Game.h
+
+/home/duonglh/Code/Game C++/defenderPro/Game.h
+Bug.h
+/home/duonglh/Code/Game C++/defenderPro/Bug.h
+TableButton.h
+/home/duonglh/Code/Game C++/defenderPro/TableButton.h
+Shooter.h
+/home/duonglh/Code/Game C++/defenderPro/Shooter.h
+Map.h
+/home/duonglh/Code/Game C++/defenderPro/Map.h
+Data.h
+/home/duonglh/Code/Game C++/defenderPro/Data.h
+TakeCoins.h
+/home/duonglh/Code/Game C++/defenderPro/TakeCoins.h
+
 /home/duonglh/Code/Game C++/defenderPro/Map.h
 SFML/Graphics.hpp
 /home/duonglh/Code/Game C++/defenderPro/SFML/Graphics.hpp
@@ -43,24 +69,28 @@ vector
 /home/duonglh/Code/Game C++/defenderPro/Shooter.h
 SFML/Graphics.hpp
 /home/duonglh/Code/Game C++/defenderPro/SFML/Graphics.hpp
+SFML/Audio.hpp
+/home/duonglh/Code/Game C++/defenderPro/SFML/Audio.hpp
 Bullet.h
 /home/duonglh/Code/Game C++/defenderPro/Bullet.h
 cmath
 -
 
-/home/duonglh/Code/Game C++/defenderPro/main.cpp
-Map.h
-/home/duonglh/Code/Game C++/defenderPro/Map.h
-Data.h
-/home/duonglh/Code/Game C++/defenderPro/Data.h
-Bug.h
-/home/duonglh/Code/Game C++/defenderPro/Bug.h
-Shooter.h
-/home/duonglh/Code/Game C++/defenderPro/Shooter.h
-Bug.h
-/home/duonglh/Code/Game C++/defenderPro/Bug.h
-Shooter.h
-/home/duonglh/Code/Game C++/defenderPro/Shooter.h
+/home/duonglh/Code/Game C++/defenderPro/TableButton.cpp
+TableButton.h
+/home/duonglh/Code/Game C++/defenderPro/TableButton.h
+
+/home/duonglh/Code/Game C++/defenderPro/TableButton.h
+Button.h
+/home/duonglh/Code/Game C++/defenderPro/Button.h
+vector
+-
 iostream
 -
+
+/home/duonglh/Code/Game C++/defenderPro/TakeCoins.h
+Animation.h
+/home/duonglh/Code/Game C++/defenderPro/Animation.h
+cmath
+/home/duonglh/Code/Game C++/defenderPro/cmath
 

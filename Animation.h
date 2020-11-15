@@ -12,16 +12,21 @@ using namespace std;
 class Animation {
 private:
     vector<Texture> listTexture;
-    int currentFrame;
+    short currentFrame;
+    float totaltime,switchtime;
+    Vector2f Scale;
+
 public:
-    Animation(){
-        currentFrame=0;
-    };
-    void update();
+    Animation();
+    bool endOfListTexture;
+    void update(float);
+    void initSprite(Sprite&);
     void setSprite(Sprite&);
     Vector2u getCurrentSize();
-    void setListTexture(vector<Texture>);
-    vector<Texture> getListTexture();
+    void setListTexture(vector<Texture>&);
+    void setScale(Vector2f);
+    void setSwitchTime(float);
+//    vector<Texture> getListTexture();
 };
 
 

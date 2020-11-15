@@ -38,7 +38,7 @@ private:
     vector<Shooter> listShooter;
     vector<pair<direct,Bug> > listBug;
     vector<TakeCoins> takeCoinsEffect;
-    unsigned short coins,death,numberCurrentListBug,currentListBug,currentIndex,countBug,frameLimit;
+    unsigned short coins,death,numberCurrentListBug,currentListBug,currentShooter,countBug,frameLimit;
     float scores,BugHp,BugGodHp,BugSpeed,BugGodSpeed,deltatime,
           totalTimeBug,totalTimeListBug,switchTimeBug,switchTimeListBug,
           BugArmor,BugGodArmor,totalTimeLocalWarning,currentLocalWaring{},totalTimeGameOver;

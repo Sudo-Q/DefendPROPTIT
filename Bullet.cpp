@@ -5,25 +5,30 @@
 #include "Bullet.h"
 #include <cmath>
 Bullet::Bullet() {
-
-//    bullet.setFillColor(Color::Yellow);
-    this->disappear=false;
+    this->isFire=false;
     velocity.x=velocity.y=0;
     speed=1;
+    trueDamage=0;
 }
 
-void Bullet::setDamage(int damage) {
-    this->damage=damage;
+void Bullet::setDamage(float _damage) {
+    this->damage=_damage;
 }
 
-int Bullet::getDamage() {
-    return this->damage;
+std::pair<float,float>& Bullet::getDamage(){
+    totalDamage.first=this->damage;
+    totalDamage.second=this->trueDamage;
+    return totalDamage;
+//    std::pair<float,float> tmp;
+//    tmp.first=this->damage;
+//    tmp.second=this->trueDamage;
+//    return tmp;
+//    return std::make_pair(damage,trueDamage);
 }
 
 void Bullet::update() {
-    if(distance<0)
-        disappear=true;
-    distance-=sqrt(velocity.x*velocity.x+velocity.y*velocity.y)*speed;
+    if(distance<=0) isFire = false;
+    distance-=std::sqrt(velocity.x*velocity.x+velocity.y*velocity.y)*speed;
     bullet.move(velocity*speed);
 }
 
@@ -35,12 +40,11 @@ FloatRect Bullet::getBound() {
     return bullet.getGlobalBounds();
 }
 
-void Bullet::setTexture(Texture texture) {
-    this->texture=texture;
-    this->texture.setSmooth(true);
-    bullet.setTexture(&this->texture);
-    bullet.setSize((Vector2f)this->texture.getSize());
-    bullet.setScale(0.3f,0.3f);
+void Bullet::setTexture(Texture &texture) {
+    bullet.setTexture(texture);
+    bullet.setTextureRect(IntRect(0,0,texture.getSize().x,texture.getSize().y));
+    bullet.setScale(Vector2f(0.4,0.4));
+    bullet.setOrigin((Vector2f)texture.getSize()*0.5f);
 }
 
 void Bullet::setSpeed(float speed) {
@@ -50,10 +54,25 @@ void Bullet::setSpeed(float speed) {
 void Bullet::setTrajectory (Vector2f start, Vector2f end) {
     float vtx=end.x-start.x;
     float vty=end.y-start.y;
-    distance=sqrt(vtx*vtx + vty*vty);
+    distance=std::sqrt(vtx*vtx + vty*vty);
     velocity.x=vtx/distance;
     velocity.y=vty/distance;
     bullet.setPosition(start);
 }
 
+void Bullet::addDamage (float _damage) {
+    this->damage+=_damage;
+}
 
+void Bullet::addTrueDamage (float _trueDamage) {
+    this->trueDamage+=_trueDamage;
+}
+
+void Bullet::addSpeed (float _speed) {
+    this->speed+=_speed;
+}
+
+
+void Bullet::setPosition (Vector2f position) {
+    bullet.setPosition(position);
+}

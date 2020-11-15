@@ -100,10 +100,22 @@
 		<Unit filename="/home/duonglh/Code/Game C++/defenderPro/Bullet.h">
 			<Option target="defenderPro"/>
 		</Unit>
+		<Unit filename="/home/duonglh/Code/Game C++/defenderPro/Button.cpp">
+			<Option target="defenderPro"/>
+		</Unit>
+		<Unit filename="/home/duonglh/Code/Game C++/defenderPro/Button.h">
+			<Option target="defenderPro"/>
+		</Unit>
 		<Unit filename="/home/duonglh/Code/Game C++/defenderPro/Data.cpp">
 			<Option target="defenderPro"/>
 		</Unit>
 		<Unit filename="/home/duonglh/Code/Game C++/defenderPro/Data.h">
+			<Option target="defenderPro"/>
+		</Unit>
+		<Unit filename="/home/duonglh/Code/Game C++/defenderPro/Game.cpp">
+			<Option target="defenderPro"/>
+		</Unit>
+		<Unit filename="/home/duonglh/Code/Game C++/defenderPro/Game.h">
 			<Option target="defenderPro"/>
 		</Unit>
 		<Unit filename="/home/duonglh/Code/Game C++/defenderPro/Intro.cpp">
@@ -118,10 +130,28 @@
 		<Unit filename="/home/duonglh/Code/Game C++/defenderPro/Map.h">
 			<Option target="defenderPro"/>
 		</Unit>
+		<Unit filename="/home/duonglh/Code/Game C++/defenderPro/Outro.cpp">
+			<Option target="defenderPro"/>
+		</Unit>
+		<Unit filename="/home/duonglh/Code/Game C++/defenderPro/Outro.h">
+			<Option target="defenderPro"/>
+		</Unit>
 		<Unit filename="/home/duonglh/Code/Game C++/defenderPro/Shooter.cpp">
 			<Option target="defenderPro"/>
 		</Unit>
 		<Unit filename="/home/duonglh/Code/Game C++/defenderPro/Shooter.h">
+			<Option target="defenderPro"/>
+		</Unit>
+		<Unit filename="/home/duonglh/Code/Game C++/defenderPro/TableButton.cpp">
+			<Option target="defenderPro"/>
+		</Unit>
+		<Unit filename="/home/duonglh/Code/Game C++/defenderPro/TableButton.h">
+			<Option target="defenderPro"/>
+		</Unit>
+		<Unit filename="/home/duonglh/Code/Game C++/defenderPro/TakeCoins.cpp">
+			<Option target="defenderPro"/>
+		</Unit>
+		<Unit filename="/home/duonglh/Code/Game C++/defenderPro/TakeCoins.h">
 			<Option target="defenderPro"/>
 		</Unit>
 		<Unit filename="/home/duonglh/Code/Game C++/defenderPro/main.cpp">

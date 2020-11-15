@@ -181,6 +181,71 @@ CMakeFiles/defenderPro.dir/Data.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/defenderPro.dir/Data.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/duonglh/Code/Game C++/defenderPro/Data.cpp" -o CMakeFiles/defenderPro.dir/Data.cpp.s
 
+CMakeFiles/defenderPro.dir/Button.cpp.o: CMakeFiles/defenderPro.dir/flags.make
+CMakeFiles/defenderPro.dir/Button.cpp.o: ../Button.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/duonglh/Code/Game C++/defenderPro/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/defenderPro.dir/Button.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/defenderPro.dir/Button.cpp.o -c "/home/duonglh/Code/Game C++/defenderPro/Button.cpp"
+
+CMakeFiles/defenderPro.dir/Button.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/defenderPro.dir/Button.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/duonglh/Code/Game C++/defenderPro/Button.cpp" > CMakeFiles/defenderPro.dir/Button.cpp.i
+
+CMakeFiles/defenderPro.dir/Button.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/defenderPro.dir/Button.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/duonglh/Code/Game C++/defenderPro/Button.cpp" -o CMakeFiles/defenderPro.dir/Button.cpp.s
+
+CMakeFiles/defenderPro.dir/TableButton.cpp.o: CMakeFiles/defenderPro.dir/flags.make
+CMakeFiles/defenderPro.dir/TableButton.cpp.o: ../TableButton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/duonglh/Code/Game C++/defenderPro/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/defenderPro.dir/TableButton.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/defenderPro.dir/TableButton.cpp.o -c "/home/duonglh/Code/Game C++/defenderPro/TableButton.cpp"
+
+CMakeFiles/defenderPro.dir/TableButton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/defenderPro.dir/TableButton.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/duonglh/Code/Game C++/defenderPro/TableButton.cpp" > CMakeFiles/defenderPro.dir/TableButton.cpp.i
+
+CMakeFiles/defenderPro.dir/TableButton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/defenderPro.dir/TableButton.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/duonglh/Code/Game C++/defenderPro/TableButton.cpp" -o CMakeFiles/defenderPro.dir/TableButton.cpp.s
+
+CMakeFiles/defenderPro.dir/Game.cpp.o: CMakeFiles/defenderPro.dir/flags.make
+CMakeFiles/defenderPro.dir/Game.cpp.o: ../Game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/duonglh/Code/Game C++/defenderPro/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/defenderPro.dir/Game.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/defenderPro.dir/Game.cpp.o -c "/home/duonglh/Code/Game C++/defenderPro/Game.cpp"
+
+CMakeFiles/defenderPro.dir/Game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/defenderPro.dir/Game.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/duonglh/Code/Game C++/defenderPro/Game.cpp" > CMakeFiles/defenderPro.dir/Game.cpp.i
+
+CMakeFiles/defenderPro.dir/Game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/defenderPro.dir/Game.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/duonglh/Code/Game C++/defenderPro/Game.cpp" -o CMakeFiles/defenderPro.dir/Game.cpp.s
+
+CMakeFiles/defenderPro.dir/TakeCoins.cpp.o: CMakeFiles/defenderPro.dir/flags.make
+CMakeFiles/defenderPro.dir/TakeCoins.cpp.o: ../TakeCoins.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/duonglh/Code/Game C++/defenderPro/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/defenderPro.dir/TakeCoins.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/defenderPro.dir/TakeCoins.cpp.o -c "/home/duonglh/Code/Game C++/defenderPro/TakeCoins.cpp"
+
+CMakeFiles/defenderPro.dir/TakeCoins.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/defenderPro.dir/TakeCoins.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/duonglh/Code/Game C++/defenderPro/TakeCoins.cpp" > CMakeFiles/defenderPro.dir/TakeCoins.cpp.i
+
+CMakeFiles/defenderPro.dir/TakeCoins.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/defenderPro.dir/TakeCoins.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/duonglh/Code/Game C++/defenderPro/TakeCoins.cpp" -o CMakeFiles/defenderPro.dir/TakeCoins.cpp.s
+
+CMakeFiles/defenderPro.dir/Outro.cpp.o: CMakeFiles/defenderPro.dir/flags.make
+CMakeFiles/defenderPro.dir/Outro.cpp.o: ../Outro.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/duonglh/Code/Game C++/defenderPro/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/defenderPro.dir/Outro.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/defenderPro.dir/Outro.cpp.o -c "/home/duonglh/Code/Game C++/defenderPro/Outro.cpp"
+
+CMakeFiles/defenderPro.dir/Outro.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/defenderPro.dir/Outro.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/duonglh/Code/Game C++/defenderPro/Outro.cpp" > CMakeFiles/defenderPro.dir/Outro.cpp.i
+
+CMakeFiles/defenderPro.dir/Outro.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/defenderPro.dir/Outro.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/duonglh/Code/Game C++/defenderPro/Outro.cpp" -o CMakeFiles/defenderPro.dir/Outro.cpp.s
+
 # Object files for target defenderPro
 defenderPro_OBJECTS = \
 "CMakeFiles/defenderPro.dir/main.cpp.o" \
@@ -190,7 +255,12 @@ defenderPro_OBJECTS = \
 "CMakeFiles/defenderPro.dir/Shooter.cpp.o" \
 "CMakeFiles/defenderPro.dir/Intro.cpp.o" \
 "CMakeFiles/defenderPro.dir/Map.cpp.o" \
-"CMakeFiles/defenderPro.dir/Data.cpp.o"
+"CMakeFiles/defenderPro.dir/Data.cpp.o" \
+"CMakeFiles/defenderPro.dir/Button.cpp.o" \
+"CMakeFiles/defenderPro.dir/TableButton.cpp.o" \
+"CMakeFiles/defenderPro.dir/Game.cpp.o" \
+"CMakeFiles/defenderPro.dir/TakeCoins.cpp.o" \
+"CMakeFiles/defenderPro.dir/Outro.cpp.o"
 
 # External object files for target defenderPro
 defenderPro_EXTERNAL_OBJECTS =
@@ -203,13 +273,18 @@ defenderPro: CMakeFiles/defenderPro.dir/Shooter.cpp.o
 defenderPro: CMakeFiles/defenderPro.dir/Intro.cpp.o
 defenderPro: CMakeFiles/defenderPro.dir/Map.cpp.o
 defenderPro: CMakeFiles/defenderPro.dir/Data.cpp.o
+defenderPro: CMakeFiles/defenderPro.dir/Button.cpp.o
+defenderPro: CMakeFiles/defenderPro.dir/TableButton.cpp.o
+defenderPro: CMakeFiles/defenderPro.dir/Game.cpp.o
+defenderPro: CMakeFiles/defenderPro.dir/TakeCoins.cpp.o
+defenderPro: CMakeFiles/defenderPro.dir/Outro.cpp.o
 defenderPro: CMakeFiles/defenderPro.dir/build.make
 defenderPro: /usr/lib/x86_64-linux-gnu/libsfml-graphics.so.2.5.1
 defenderPro: /usr/lib/x86_64-linux-gnu/libsfml-audio.so.2.5.1
 defenderPro: /usr/lib/x86_64-linux-gnu/libsfml-window.so.2.5.1
 defenderPro: /usr/lib/x86_64-linux-gnu/libsfml-system.so.2.5.1
 defenderPro: CMakeFiles/defenderPro.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/duonglh/Code/Game C++/defenderPro/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable defenderPro"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/duonglh/Code/Game C++/defenderPro/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable defenderPro"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/defenderPro.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

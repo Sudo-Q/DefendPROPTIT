@@ -224,6 +224,33 @@ Bullet.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/defenderPro.dir/build.make CMakeFiles/defenderPro.dir/Bullet.cpp.s
 .PHONY : Bullet.cpp.s
 
+Button.o: Button.cpp.o
+
+.PHONY : Button.o
+
+# target to build an object file
+Button.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/defenderPro.dir/build.make CMakeFiles/defenderPro.dir/Button.cpp.o
+.PHONY : Button.cpp.o
+
+Button.i: Button.cpp.i
+
+.PHONY : Button.i
+
+# target to preprocess a source file
+Button.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/defenderPro.dir/build.make CMakeFiles/defenderPro.dir/Button.cpp.i
+.PHONY : Button.cpp.i
+
+Button.s: Button.cpp.s
+
+.PHONY : Button.s
+
+# target to generate assembly for a file
+Button.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/defenderPro.dir/build.make CMakeFiles/defenderPro.dir/Button.cpp.s
+.PHONY : Button.cpp.s
+
 Data.o: Data.cpp.o
 
 .PHONY : Data.o
@@ -250,6 +277,33 @@ Data.s: Data.cpp.s
 Data.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/defenderPro.dir/build.make CMakeFiles/defenderPro.dir/Data.cpp.s
 .PHONY : Data.cpp.s
+
+Game.o: Game.cpp.o
+
+.PHONY : Game.o
+
+# target to build an object file
+Game.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/defenderPro.dir/build.make CMakeFiles/defenderPro.dir/Game.cpp.o
+.PHONY : Game.cpp.o
+
+Game.i: Game.cpp.i
+
+.PHONY : Game.i
+
+# target to preprocess a source file
+Game.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/defenderPro.dir/build.make CMakeFiles/defenderPro.dir/Game.cpp.i
+.PHONY : Game.cpp.i
+
+Game.s: Game.cpp.s
+
+.PHONY : Game.s
+
+# target to generate assembly for a file
+Game.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/defenderPro.dir/build.make CMakeFiles/defenderPro.dir/Game.cpp.s
+.PHONY : Game.cpp.s
 
 Intro.o: Intro.cpp.o
 
@@ -305,6 +359,33 @@ Map.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/defenderPro.dir/build.make CMakeFiles/defenderPro.dir/Map.cpp.s
 .PHONY : Map.cpp.s
 
+Outro.o: Outro.cpp.o
+
+.PHONY : Outro.o
+
+# target to build an object file
+Outro.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/defenderPro.dir/build.make CMakeFiles/defenderPro.dir/Outro.cpp.o
+.PHONY : Outro.cpp.o
+
+Outro.i: Outro.cpp.i
+
+.PHONY : Outro.i
+
+# target to preprocess a source file
+Outro.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/defenderPro.dir/build.make CMakeFiles/defenderPro.dir/Outro.cpp.i
+.PHONY : Outro.cpp.i
+
+Outro.s: Outro.cpp.s
+
+.PHONY : Outro.s
+
+# target to generate assembly for a file
+Outro.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/defenderPro.dir/build.make CMakeFiles/defenderPro.dir/Outro.cpp.s
+.PHONY : Outro.cpp.s
+
 Shooter.o: Shooter.cpp.o
 
 .PHONY : Shooter.o
@@ -331,6 +412,60 @@ Shooter.s: Shooter.cpp.s
 Shooter.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/defenderPro.dir/build.make CMakeFiles/defenderPro.dir/Shooter.cpp.s
 .PHONY : Shooter.cpp.s
+
+TableButton.o: TableButton.cpp.o
+
+.PHONY : TableButton.o
+
+# target to build an object file
+TableButton.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/defenderPro.dir/build.make CMakeFiles/defenderPro.dir/TableButton.cpp.o
+.PHONY : TableButton.cpp.o
+
+TableButton.i: TableButton.cpp.i
+
+.PHONY : TableButton.i
+
+# target to preprocess a source file
+TableButton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/defenderPro.dir/build.make CMakeFiles/defenderPro.dir/TableButton.cpp.i
+.PHONY : TableButton.cpp.i
+
+TableButton.s: TableButton.cpp.s
+
+.PHONY : TableButton.s
+
+# target to generate assembly for a file
+TableButton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/defenderPro.dir/build.make CMakeFiles/defenderPro.dir/TableButton.cpp.s
+.PHONY : TableButton.cpp.s
+
+TakeCoins.o: TakeCoins.cpp.o
+
+.PHONY : TakeCoins.o
+
+# target to build an object file
+TakeCoins.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/defenderPro.dir/build.make CMakeFiles/defenderPro.dir/TakeCoins.cpp.o
+.PHONY : TakeCoins.cpp.o
+
+TakeCoins.i: TakeCoins.cpp.i
+
+.PHONY : TakeCoins.i
+
+# target to preprocess a source file
+TakeCoins.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/defenderPro.dir/build.make CMakeFiles/defenderPro.dir/TakeCoins.cpp.i
+.PHONY : TakeCoins.cpp.i
+
+TakeCoins.s: TakeCoins.cpp.s
+
+.PHONY : TakeCoins.s
+
+# target to generate assembly for a file
+TakeCoins.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/defenderPro.dir/build.make CMakeFiles/defenderPro.dir/TakeCoins.cpp.s
+.PHONY : TakeCoins.cpp.s
 
 main.o: main.cpp.o
 
@@ -377,18 +512,33 @@ help:
 	@echo "... Bullet.o"
 	@echo "... Bullet.i"
 	@echo "... Bullet.s"
+	@echo "... Button.o"
+	@echo "... Button.i"
+	@echo "... Button.s"
 	@echo "... Data.o"
 	@echo "... Data.i"
 	@echo "... Data.s"
+	@echo "... Game.o"
+	@echo "... Game.i"
+	@echo "... Game.s"
 	@echo "... Intro.o"
 	@echo "... Intro.i"
 	@echo "... Intro.s"
 	@echo "... Map.o"
 	@echo "... Map.i"
 	@echo "... Map.s"
+	@echo "... Outro.o"
+	@echo "... Outro.i"
+	@echo "... Outro.s"
 	@echo "... Shooter.o"
 	@echo "... Shooter.i"
 	@echo "... Shooter.s"
+	@echo "... TableButton.o"
+	@echo "... TableButton.i"
+	@echo "... TableButton.s"
+	@echo "... TakeCoins.o"
+	@echo "... TakeCoins.i"
+	@echo "... TakeCoins.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

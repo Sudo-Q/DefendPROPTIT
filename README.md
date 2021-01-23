@@ -20,4 +20,4 @@ tốc độ di chuyển và hướng đi.
 - Bullet.cpp class đạn tự động tạo 1 lộ trình cho viên đạn bay từ người bắn đến quái nếu va chạm
 vào quái sẽ gây sát thương và quay lại vị trí ban đầu k thì đi hết lộ trình cug quay về vị trí ban đầu.
 - Shooter.cpp class có người chơi tự động quay theo hướng quái chạy và chứa class đạn.
--outro.cpp t
+-outro.cpp class hiển thị điểm của người chơi và kết thúc game, nếu người chơi chọn tiếp tục chơi thì quay lại game ban đầu, làm m
